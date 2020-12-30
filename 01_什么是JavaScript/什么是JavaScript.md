@@ -55,3 +55,77 @@ ES6于2015年发布，正式支持类，模块，迭代器，生成器，箭头�
 ...
 
 ES10，也称ES2019，发布于2019年6月。
+
+#### 浏览器对ECMAScript的支持
+
+2008年，五大浏览器（IE、Firefox、Safari、Chrome和Opera）全部兼容ECMA第三版，IE8部分支持ECMA第5版，IE9完全支持。
+
+至于ECMA第6版，则在微软新的浏览器Edge中得到了支持，目前主流的浏览器均支持ECMA第6版，即使不支持的浏览器也可以通过Babel转换来实现兼容。
+
+
+
+### DOM
+
+DOM,即Document Object Model,译为文档对象模型，是一个应用编程接口（API）。
+
+DOM将整个HTML页面抽象成一组分层节点，HTML的每个标签都是节点，包含不同的数据。
+
+例如下面的HTML页面：
+
+```html
+<html>
+    <head>
+        <title>Sample Page</title>
+    </head>
+    <body>
+        <p>Hello,World.</p>
+    </body>
+</html>
+```
+
+上述代码通过DOM可以表示为一组分层节点，如下
+
+![](DOM_ele.png)
+
+转换成DOM后，开发者可以通过DOM提供的API轻松增加、删除、替换和修改节点，达到随心所欲控制网页的内容和结构。
+
+最关键的是，DOM是人们制定的标准，所有浏览器厂商如果希望得到更多开发者的支持，就必须遵守标准。
+
+#### DOM级别
+
++ DOM Level1 规范由两个模块组成：DOM Core和DOM HTML。对于网页开发者而言，DOM HTML在DOM Core 映射XML文档的基础上增加了基于HTML的对象和方法，更方便访问和操作文档。
+
++ DOM2新增了DOM视图、DOM事件、DOM样式和DOM遍历与范围等功能。
++ DOM3进一步扩展了DOM，增加了DOM Load and Save模块。
++ DOM Level 0并不是标签，知识DOM历史中的参考点，可以看做IE4时代最初支持的DHTML。
+
+
+
+#### 其他DOM
+
+有些其他语言也发布了自己的DOM标准，例如：
+
++ 可伸缩矢量图 SVG
++ 数学标记语言 MathML
++ 同步多媒体集成语言 SMIL
+
+
+
+#### Web浏览器对DOM支持情况
+
+| 浏览器  | DOM兼容              |
+| ------- | -------------------- |
+| IE5.5~8 | Level 1              |
+| IE9+    | Level1 Level2 Level3 |
+| Edge    | Level1 Level2 Level3 |
+
+其他主流浏览器对DOM兼容性要好很多，例如Chrome1+就部分支持Level2，目前最新的Chrome88则完全支持Level3。
+
+
+
+### BOM
+
+
+
+
+
