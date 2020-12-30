@@ -18,7 +18,40 @@
 
 > ECMAScript是JavaScript的规格，JavaScript是ECMAScript的实现。
 
+完整的JavaScript包含以下3个部分：
+
++ 核心（ECMScript）
++ 文档对象模型（DOM）
++ 浏览器对象模型（BOM）
+
+![](JavaScript01.png)
 
 
 
+### ECMAScript
 
+ECMAScript，定义了这门脚本语言的基准；该语言也不局限于浏览器，Web浏览器仅仅是ECMAScript实现的一种宿主环境，服务器端Node.js也实现了宿主环境。
+
+ECMA262(ECMAScript)主要描述或定义了以下部分：
+
++ 语法
++ 类型
++ 语句
++ 关键字
++ 保留字
++ 操作符
++ 全局对象
+
+#### ECMAScript版本
+
+ECMAScript（以下简称ES）第三版增加了许多东西，标志着ECMAScript成为一门真正的编程语言。
+
+ES4对该语言进行了彻底修订，但是很可惜在发布前夕被放弃。
+
+ES5于2009年发布，是目前主流浏览器兼容性最好的一个版本。
+
+ES6于2015年发布，正式支持类，模块，迭代器，生成器，箭头函数等，
+
+...
+
+ES10，也称ES2019，发布于2019年6月。
